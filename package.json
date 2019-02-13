@@ -7,7 +7,11 @@
     "functional-javascript": "functional-javascript.js",
     "functional-javascript-workshop": "functional-javascript.js"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node functional-javascript.js",
+    "test": "node functional-javascript.js run",
+    "verify": "node functional-javascript.js verify"
+  },
   "keywords": [
     "workshopper",
     "tutorial",
