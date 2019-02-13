@@ -27,7 +27,7 @@ The goal of this workshop is to create realistic problems that can be solved usi
 ## Installation & Update
 
 ```
-$ npm install -g functional-javascript-workshop@latest
+$ npm install
 ```
 
 Some npm installations require use of `sudo` in the above command. Recommend to instead [reinstall node/npm so you don't need sudo](https://gist.github.com/isaacs/579814).
@@ -40,7 +40,7 @@ Once the workshop is installed, run `functional-javascript-workshop` to print a 
 where you can select a problem to work on.
 
 ```
-$ functional-javascript-workshop
+$ npm run start
 ```
 
 Problems are listed in rough order of difficulty. You are advised to complete them in order, as later problems
@@ -59,7 +59,7 @@ Use the workshop's `run` command to point the workshop at your solution file. Yo
 and passed the problem input. This usually won't perform any validation, it will only show the program output.
 
 ```
-$ functional-javascript-workshop run mysolution.js
+$ npm run test ./my-solutions/solution.js
 ```
 
 #### 4. Verifying your solution
@@ -68,58 +68,10 @@ Your solution will be verified against the output of the 'official' solution.
 If all of the output matches, then you have successfully solved the problem!
 
 ```
-$ functional-javascript-workshop verify mysolution.js
+$ npm run verify ./my-solutions/solution.js
 ```
-
-## Stuck?
-
-Feedback and criticism is welcome, please log your troubles in [issues](https://github.com/timoxley/functional-javascript-workshop/issues).
-
-Full curriculum reviews [like this one](https://github.com/timoxley/functional-javascript-workshop/issues/7) are incredibly helpful. More feedback like this please!
-
-We're looking for more practical problems, so if you come across a problem in your day-to-day work which was solved simply and elegantly with some functional JavaScript techniques, please help us create an exercise out of it.
-
 
 ## Screenshots
 
 ![screen shot 2013-09-27 at 5 18 45 pm](https://f.cloud.github.com/assets/43438/1225514/08c87a70-276a-11e3-8db7-485e3c760373.png)
 ![screen shot 2013-09-23 at 9 13 02 pm](https://f.cloud.github.com/assets/43438/1191466/f289f38a-2451-11e3-9ba5-a3c224b5ca97.png)
-
-## Resources
-
-[A growing collection of quality functional javascript resources can be found in the wiki](https://github.com/timoxley/functional-javascript-workshop/wiki).
-
-
-## Thanks rvagg
-
-This tutorial was built using rvagg's [workshopper](https://github.com/rvagg/workshopper) framework.
-
-## Summary
-
-```
- project  : functional-javascript
- repo age : 7 months
- active   : 50 days
- commits  : 152
- files    : 70
- authors  :
-    69	Tim                     45.4%
-    67	Tim Oxley               44.1%
-     3	Sequoia McDowell        2.0%
-     2	ZJ                      1.3%
-     1	Naor Biton              0.7%
-     1	Pavel Kornilov          0.7%
-     1	Steve Teo               0.7%
-     1	Wei Lu                  0.7%
-     1	Yoshua Wuyts            0.7%
-     1	flakyfilibuster         0.7%
-     1	Arvid Andersson         0.7%
-     1	tim walker              0.7%
-     1	Brendon Murphy          0.7%
-     1	Lorcan Coyle            0.7%
-     1	Matthew Hokanson        0.7%
-```
-
-## License
-
-MIT
